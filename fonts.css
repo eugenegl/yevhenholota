@@ -1,0 +1,84 @@
+@font-face {
+    font-family: "NeuePlak";
+    src: url("./fonts/NeuePlak-ExtendedBold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "NeuePlak";
+    src: url("./fonts/NeuePlak-ExtendedRegular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "NeuePlak";
+    src: url("./fonts/NeuePlak-ExtendedSemiBold.ttf") format("truetype");
+}
+
+
+
+html {
+    font-family: 'NeuePlak', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-family: 'Neue Plak';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 120%;
+
+    color: #031628;
+}
+
+h2 {
+    font-family: 'Neue Plak';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 120%;
+
+    color: #031628;
+}
+
+h3 {
+    font-family: 'Neue Plak';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 140%;
+
+    color: #031628;
+}
+
+span {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 160%;
+
+    color: #031628;
+}
+
+p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 160%;
+
+    color: #031628;
+}
+
+a {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 160%;
+
+    color: #031628;
+
+    text-decoration: none;
+    border: none;
+}
