@@ -25,14 +25,21 @@
         grid-column-end: 2 !important;
     }
 
+    h3 {
+        font-size: 28px !important;
+    }
+
     footer {
-        height: 200px !important;
+        height: 220px !important;
         flex-direction: column;
+
+        justify-content: center !important;
+
+        gap: 40px !important;
     }
 
     .footer-header {
         flex-direction: column;
 
-        margin-bottom: 50px;
     }
 }
