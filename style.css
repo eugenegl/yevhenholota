@@ -1,7 +1,7 @@
 @import url(./fonts.css);
 @import url(./media.css);
 
-@font-face {
+/* @font-face {
     font-family: "NeuePlak";
     src: url("./fonts/NeuePlak-ExtendedBold.ttf") format("truetype");
 }
@@ -14,11 +14,12 @@
 @font-face {
     font-family: "NeuePlak";
     src: url("./fonts/NeuePlak-ExtendedSemiBold.ttf") format("truetype");
-}
+} */
 
 
 html {
-    font-family: 'NeuePlak', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Questrial', sans-serif;
 }
 
 :root {
