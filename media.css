@@ -26,7 +26,13 @@
     }
 
     footer {
-        height: 150px !important;
+        height: 200px !important;
         flex-direction: column;
+    }
+
+    .footer-header {
+        flex-direction: column;
+
+        margin-bottom: 50px;
     }
 }
