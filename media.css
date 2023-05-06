@@ -1,3 +1,32 @@
-@media screen {
-    
+@media screen and (min-width: 320px) and (max-width: 640px) {
+
+    .about__text {
+        width: 100% !important;
+
+        margin-top: 20px !important;
+    }
+
+    .local__time {
+        margin-top: 20px !important;
+
+        padding: 0 !important;
+
+        justify-content: flex-start !important;
+
+        gap: 5px !important;
+    }
+
+    header {
+        flex-direction: column;
+    }
+
+    .item-1 {
+        grid-column-start: 1;
+        grid-column-end: 2 !important;
+    }
+
+    footer {
+        height: 150px !important;
+        flex-direction: column;
+    }
 }
