@@ -1,6 +1,27 @@
 @import url(./fonts.css);
 @import url(./media.css);
 
+@font-face {
+    font-family: "NeuePlak";
+    src: url("./fonts/NeuePlak-ExtendedBold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "NeuePlak";
+    src: url("./fonts/NeuePlak-ExtendedRegular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "NeuePlak";
+    src: url("./fonts/NeuePlak-ExtendedSemiBold.ttf") format("truetype");
+}
+
+
+html {
+    font-family: 'NeuePlak', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
 :root {
     --green-color: #0D8A30;
     --green-bg: #0d8a301d;
